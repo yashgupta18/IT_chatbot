@@ -4,7 +4,7 @@ import sys
 import Chatbot_GUI 
 
 
-sys.path.append(os.path.abspath('/Users/yashgupta/Desktop/chatbot/'))
+# sys.path.append(os.path.abspath('/Users/yashgupta/Desktop/chatbot/'))
 
 app=Flask(__name__)
 # model = load_model(r'/Users/yashgupta/Desktop/chatbot/chatbot_model.h5')
@@ -26,28 +26,3 @@ if __name__=="__main__":
 	#run the app locally on the givn port
 	app.run(debug=False, host='0.0.0.0', port=port, threaded=False)
 	#app.run(debug=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
